@@ -18,19 +18,19 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
 #banner {
   position: relative;
-  min-height: 40px;
-  background: #9c9;
+  min-height: 80px;
+  background: #009D91;
   padding: 10px;
   border-bottom: 2px solid;
   font: small-caps 40px/40px "Times New Roman", serif;
-  color: #282;
+  color: #00665E;
   text-align: center;
 
   img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 192px;
+    width: 150px;
   }
 }
 
@@ -48,7 +48,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 }
 
 #columns {
-  background: #141;
+  background: #33CEC3;
   display: flex;
 
   #main {
@@ -59,7 +59,7 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
   #side {
     padding: 1em 2em;
-    background: #141;
+    background: #33CEC3;
 
     form, div {
       display: inline;
@@ -73,8 +73,8 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
               white;
       table {
         border-top:
-                1px dotted #595;
-        border-bottom: 1px dotted #595;
+                1px dotted #000000;
+        border-bottom: 1px dotted #000000;
         margin-bottom: 10px;
       }
     }
@@ -83,9 +83,11 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
       padding: 0;
       li {
         list-style: none;
+        color: #1F883B;
+        font-size: 21px;
         a {
-          color: #bfb;
-          font-size: small;
+          color: #1F883B;
+          font-size: 21px;
         }
       }
     }
@@ -109,10 +111,10 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
 
 .depot_form {
   fieldset {
-    background: #efe;
+    background: #9CD0DD;
     legend {
-      color: #dfd;
-      background: #141;
+      color: #9CD0DD;
+      background: #009D91;
       font-family: sans-serif;
       padding: 0.2em 1em;
     }
@@ -139,4 +141,9 @@ body, body > p, body > ol, body > ul, body > td {margin: 8px !important}
       display: none
     }
   }
+}
+
+.locale {
+  float: right;
+  margin: -0.25em 0.1em;
 }
